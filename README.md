@@ -43,9 +43,37 @@ It can be quicker with this command:
 
     mvn clean spring-boot:run
 
-
 Here is a screenshot of the starting process...
 
 ![Launching Spring Boot](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/spring-boot-run.png)
+
+
+### Requests to the API
+
+You can make the following requests:
+
+Get a list of records:
+
+    curl -v localhost:8080/employees
+
+Get a specific record id:
+
+    curl -v localhost:8080/employees/3
+
+Check the 404 status:
+
+    curl -v localhost:8080/employees/99
+
+Create a new record:
+
+    curl -X POST localhost:8080/employees -H 'Content-type:application/json' -d '{"name": "Sam Fisher", "role": "Agent", "department": "Security"}'
+
+Update an existing record:
+
+    curl -X PUT localhost:8080/employees/3 -H 'Content-type:application/json' -d '{"name": "Daniel Fisher", "role": "Agent", "department": "Security"}'
+
+Delete a record:
+
+    curl -X DELETE localhost:8080/employees/4
 
 [1]: https://maven.apache.org/install.html
