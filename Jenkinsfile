@@ -9,6 +9,14 @@ pipeline {
   }
 
   stages {
+    stage('SCM') {
+      checkout scm
+    }
+    stage('SonarQube Analysis') {
+      withSonarQubeEnv() {
+        sh "mvn clean verify sonar:sonar -Dsonar.projectKey=github-springboot-payroll"
+      }
+    }
     stage('Maven Build') {
       steps {
         sh 'mvn clean install -f pom.xml'
