@@ -18,7 +18,7 @@ Spring Boot is a powerful framework to create Web applications or API. It work a
 
 **Why Spring Boot?**
 
-Historically, we worked on powerful servers with J2EE and then appeared "Spring" which is lighter than his old brother. Then, it became mandatory to seperate the backend from the frontend to build more resilient and maintainable applications. Also, with the increasing popularity of Cloud services, "Spring Boot" appeared.
+Historically, we worked on powerful servers with J2EE and then appeared "Spring" which is lighter than his old brother. Then, it became mandatory to separate the backend from the frontend to build more resilient and maintainable applications. Also, with the increasing popularity of Cloud services, "Spring Boot" appeared.
 You can even have a local server that you can launch with the cli.
 
 Spring Boot can compete with other frameworks like NodeJS or Symfony whereas Symfony can cover more needs than Spring Boot. 
@@ -46,7 +46,6 @@ It can be quicker with this command:
 Here is a screenshot of the starting process...
 
 ![Launching Spring Boot](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/spring-boot-run.png)
-
 
 ### Requests to the API
 
