@@ -76,3 +76,16 @@ Delete a record:
     curl -X DELETE localhost:8080/employees/4
 
 [1]: https://maven.apache.org/install.html
+
+## Build the application
+
+You can build this application and send it to a Tomcat container.
+To do so, you need to configure the deployer credentials to contact the Tomcat API. In order to check the webapp url on your Tomcat server, you can check the Jenkins logs, log in to your-tomcat-server-url/manager/html/ (Tomcat Web Application Manager UI) or ssh to the server and browse the /var/lib/tomcat9/webapps/ directory.
+
+Build SUCCESS with Jenkins
+
+![Build SUCCESS with Jenkins](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/jenkins-build-success.png)
+
+Tomcat Web Application Manager
+
+![Tomcat Web Application Manager](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/tomcat-web-application-manager.png)
