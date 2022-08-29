@@ -47,6 +47,14 @@ Here is a screenshot of the starting process...
 
 ![Launching Spring Boot](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/spring-boot-run.png)
 
+### How to display mnv update for dependencies?
+
+    mvn versions:display-dependency-updates
+
+Then, you can update to the latest version with:
+
+    mvn versions:use-next-releases
+
 ### Requests to the API
 
 You can make the following requests:
