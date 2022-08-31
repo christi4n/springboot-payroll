@@ -85,6 +85,12 @@ Delete a record:
 
 [1]: https://maven.apache.org/install.html
 
+## Use a different port
+
+By default, a Spring Boot application is running on the 8080 port but you can override this by adding an application.properties file (windows .ini style) or an application.yml file in the root of your project. We can use the 8081 port instead.
+
+    server.port=8081
+
 ## Build the application
 
 You can build this application and send it to a Tomcat container.
