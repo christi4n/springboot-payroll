@@ -1,4 +1,4 @@
 gitProvider: springbootpayroll
-artifactory: default-maven-local
+artifactory: springbootpayroll-local
 repoPath: christi4n/springboot-payroll
 deployerRepo: springbootpayroll-local
