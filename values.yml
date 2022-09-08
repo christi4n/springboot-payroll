@@ -1,4 +1,4 @@
 gitProvider: springbootpayroll
-artifactory: SprintBootDemo
+artifactory: SpringBootDemo
 repoPath: christi4n/springboot-payroll
 deployerRepo: springbootpayroll-local
