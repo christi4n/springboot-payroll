@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: mydevfactory
+  snapshotRepo: default-maven-virtual
+  releaseRepo: default-maven-virtual
+deployer:
+  serverId: mydevfactory
+  snapshotRepo: default-maven-virtual
+  releaseRepo: default-maven-virtual
