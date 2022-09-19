@@ -98,8 +98,21 @@ To do so, you need to configure the deployer credentials to contact the Tomcat A
 
 Build SUCCESS with Jenkins
 
-![Build SUCCESS with Jenkins](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/jenkins-build-success.png)
+![Build SUCCESS with Jenkins](./assets/jenkins-build-success.png)
 
 Tomcat Web Application Manager
 
-![Tomcat Web Application Manager](https://raw.githubusercontent.com/christi4n/springboot-payroll/master/assets/tomcat-web-application-manager.png)
+![Tomcat Web Application Manager](./assets/tomcat-web-application-manager.png)
+
+## JFrog build and artifact
+
+The pipeline.yml describe two processes:
+
+- the build process
+- publish the artifact into a local repo
+
+The first step is a kind of MvnBuild step. It performs a Maven build of files located in the GitHub repository. Look at the documentation: [MvnBuild](https://www.jfrog.com/confluence/display/JFROG/MvnBuild)
+
+The second step is the [PublishBuildInfo](https://www.jfrog.com/confluence/display/JFROG/PublishBuildInfo). It publishes the build into JFrog Artifactory.
+
+![Jfrog - Build and publish](./assets/jfrog-build-and-publish-pipeline.png)
