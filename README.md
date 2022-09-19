@@ -21,7 +21,7 @@ Spring Boot is a powerful framework to create Web applications or API. It work a
 Historically, we worked on powerful servers with J2EE and then appeared "Spring" which is lighter than his old brother. Then, it became mandatory to separate the backend from the frontend to build more resilient and maintainable applications. Also, with the increasing popularity of Cloud services, "Spring Boot" appeared.
 You can even have a local server that you can launch with the cli.
 
-Spring Boot can compete with other frameworks like NodeJS or Symfony whereas Symfony can cover more needs than Spring Boot. 
+Spring Boot can compete with other frameworks like NodeJS or Symfony whereas Symfony can cover more needs than Spring Boot.
 Therefore, the main purpose of Spring Boot is to build secured APIs that are receiving many requests from applications and for different purposes.
 
 ## How to use the Spring Boot Payroll app?
